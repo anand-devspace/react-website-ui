@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Getting Started
+
+This project consists of a React frontend and a Python FastAPI backend.
+
+## Backend Setup
+
+The backend requires Python 3.8+ and the dependencies listed in `requirements.txt`.
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the backend server
+
+```bash
+uvicorn app.main:app --reload --port 9000
+```
+
+The API will be available at [http://localhost:9000](http://localhost:9000).
+
+---
+
+## Frontend – Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
